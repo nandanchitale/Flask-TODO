@@ -7,10 +7,10 @@ app = Flask(__name__)
 
 # Configure Pusher project
 pusher_client = Pusher(
-    app_id='1230537',
-    key='07a3bba45c3289588396',
-    secret='f881400406f1f585a487',
-    cluster='ap2',
+    app_id='<YOUR-APP-ID>',
+    key='<YOUR-KEY>',
+    secret='<YOUR-SECRET-CODE>',
+    cluster='<YOUR-CLUSTER-NAME>',
     ssl=True
 )
 
